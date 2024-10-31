@@ -1,0 +1,92 @@
+[07-May-2022 10:18:50 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize_text_field() in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php on line 3
+[07-May-2022 10:18:59 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize_text_field() in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php on line 3
+[07-May-2022 10:19:01 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize_text_field() in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php on line 3
+[07-May-2022 10:19:05 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize_text_field() in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php on line 3
+[07-May-2022 10:24:11 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php on line 2
+[07-May-2022 10:24:23 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php on line 2
+[07-May-2022 10:25:00 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php on line 2
+[07-May-2022 10:25:11 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php on line 2
+[21-May-2022 11:12:28 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php on line 3
+[21-May-2022 11:12:34 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php on line 3
+[21-May-2022 11:12:45 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php on line 3
+[21-May-2022 11:13:24 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php on line 3
+[21-May-2022 11:13:52 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php on line 3
+[21-May-2022 11:23:41 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php on line 3
+[21-May-2022 11:51:11 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php on line 3
+[21-May-2022 14:17:23 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php on line 3
+[21-May-2022 14:25:13 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php on line 3
+[21-May-2022 14:42:14 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php on line 3
+[21-May-2022 14:55:46 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php on line 3
+[21-May-2022 14:55:46 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php on line 3
+[21-May-2022 14:59:46 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php on line 3
+[21-May-2022 15:00:53 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php on line 3
+[21-May-2022 16:28:39 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/peymanm1/public_html/wp-content/plugins/porsline-wordpress-plugin/view/auth-api-ajax.php on line 3

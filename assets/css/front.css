@@ -1,0 +1,33 @@
+#porsline-popup-all {
+    display: none;
+}
+#porsline-survey-popup-window {
+    background-color: rgba(0, 0, 0, 0);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    animation-duration: 0.5s;
+    text-align: center;
+}
+
+@keyframes popupbackAnimation {
+    to {
+        visibility: visible;
+        background-color: rgba(0, 0, 0, 0.795);
+    }
+}
+
+
+#porsline-popup-close-btn {
+    cursor: pointer;
+}
+
+#porsline-popup-close-btn i {
+    font-size: 20px;
+    color: #ffffff;
+    transform: rotate(45deg);
+}

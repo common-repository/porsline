@@ -1,0 +1,1418 @@
+/* @font-face {
+
+    font-family: Vazir;
+
+    src: url(../font/Vazir-Regular.ttf);
+
+} */
+
+
+
+/* div.porsline-survey-list-page div, a, span, h1, h2, h3, h4 {
+
+    font-family: Vazir !important;
+
+} */
+
+h2 {
+    margin-left: 15px;
+}
+
+#porsline-header {
+
+    box-shadow: 0px 4px 8px -2px rgb(0 0 0 / 15%);
+
+    margin: 0px 0 0px -1%;
+
+    width: 100%;
+
+    padding: 8px;
+
+    border-radius: 8px 8px 0 0;
+
+}
+
+
+
+.porsline-header-modal {
+
+    box-shadow: 0px 4px 8px -2px rgb(0 0 0 / 15%);
+
+    margin: 0px 0 0px -2%;
+
+    width: 101%;
+
+    padding: 8px;
+
+    border-radius: 8px 8px 0 0;
+
+}
+
+
+
+div#porsline-icon {
+
+    float: right;
+
+    font-size: 1.125rem;
+
+    font-weight: 700;
+
+    margin: -38px 15px 0 0;
+
+}
+
+
+
+.porsline-survey-list-page {
+
+    width: 80%;
+
+    margin-left: 6%;
+
+    background-color: #ffffff;
+
+    padding: 10px 10px 56px 10px;
+
+    margin-top: 50px;
+
+    border-radius: 10px;
+
+}
+
+
+
+.porsline-add-new-survey-sec {
+
+    margin-top: 100px;
+
+    text-align: center;
+
+}
+
+
+
+.porsline-red-error {
+
+    color: #3b368e;
+
+    text-align: center;
+
+}
+
+
+
+.porsline-add-new-survey-button {
+
+    width: 25%;
+
+    margin-left: 1%;
+
+    margin-top: 22px;
+
+    border-radius: 3px;
+
+    border-color: #3b368e;
+
+    background-color: #3b368e;
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+    color: #ffffff;
+
+    cursor: pointer;
+
+    text-align: center;
+
+    padding: 12px;
+
+    display: inline-block;
+
+}
+
+a.porsline-add-new-survey-button {
+    text-decoration: none;
+    color: #ffffff !important;
+}
+
+
+
+#add_survey_popup_holder {
+
+    height: 100%;
+
+    width: 100%;
+
+    position: fixed;
+
+    z-index: 10;
+
+    top: 0;
+
+    left: 0;
+
+    background-color: rgb(0 0 0 / 10%);
+
+    animation-duration: 0.5s;
+
+    text-align: center;
+
+    display: none;
+
+}
+
+
+
+#porsline-add-survey-popup {
+
+    background-color: #eef0f5;
+
+    position: fixed;
+
+    width: 1063px;
+
+    height: 535;
+
+    margin-left: 16%;
+
+    top: 60px;
+
+    padding: 10px;
+
+    box-shadow: 3px 5px 24px 0px rgb(70 70 70 / 50%);
+
+    z-index: 11;
+
+}
+
+
+
+#adminmenuback {
+
+    z-index: 11;
+
+}
+
+
+
+#porsline-add-survey-popup h3 {
+
+    text-align: center;
+
+}
+
+
+
+#porsline-add-survey-popup #popup-close-btn {
+
+    cursor: pointer;
+
+    float: left;
+
+}
+
+
+
+#porsline-add-survey-popup #popup-close-btn i {
+
+    font-size: 20px;
+
+    color: #3b368e;
+
+    transform: rotate(45deg);
+
+}
+
+
+
+.porsline-add-survey-popup-btn {
+
+    background-color: #3b368e;
+
+    color: #ffffff;
+
+    display: inline-block;
+
+    width: 40%;
+
+    margin-left: 5%;
+
+    border-radius: 6px;
+
+    text-align: center;
+
+    padding: 45px 1%;
+
+    font-size: 17px;
+
+    cursor: pointer;
+
+}
+
+
+
+#porsline-choose-from-panel-span {
+
+    display: none;
+
+}
+
+
+
+#porsline-choose-from-link-span {
+
+    display: none;
+
+}
+
+
+
+.porsline-folder-item {
+
+    width: 248px;
+
+    height: 40px;
+
+    padding: 15px 16px 0px;
+
+    text-align: right;
+
+    color: var(--text-1-st);
+
+    border-radius: 4px;
+
+    margin: 4px 0px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+    float: right;
+
+    transition: 0.3s;
+
+}
+
+
+
+.porsline-folder-item:hover {
+
+    background-color: rgba(59, 54, 142, 0.2);
+
+    color: #3b368e;
+
+}
+
+
+
+#porsline-folder-surveys {
+
+    background-color: #ffffff;
+
+    color: #000000;
+
+    text-align: left;
+
+    padding: 10px;
+
+    border-radius: 10px;
+
+    cursor: alias;
+
+    display: none;
+
+}
+
+
+
+.porsline-survey-count {
+
+    color: var(--text-1-st);
+
+    display: inline;
+
+    padding: 10px;
+
+    border-radius: 50%;
+
+    float: right;
+    margin-top: -8px;
+
+}
+
+
+
+div.porsline-folder-surveys-item {
+
+    margin: 10px 10px;
+
+    width: 46%;
+
+    height: 212px;
+
+    border: aliceblue;
+
+    text-align: left;
+
+    transition: 0.3s;
+
+    padding: 0 0 0 0;
+
+    border-radius: 8px;
+
+    background-color: #ffffff;
+
+    display: inline-block;
+
+    transition: 0.3s;
+
+}
+
+
+
+button.porsline-folder-surveys-item {
+
+    margin: 10px 10px;
+
+    border-radius: 5px;
+
+    width: 339px;
+
+    height: 212px;
+
+    border: aliceblue;
+
+    text-align: left;
+
+    transition: 0.3s;
+
+    float: left;
+
+    padding: 0 0 0 0;
+
+    border-radius: 8px;
+
+    background-color: #ffffff;
+
+    cursor: pointer;
+
+}
+
+
+
+.porsline-views-responses {
+
+    background-color: #eef0f5;
+
+    padding: 5px;
+
+    border-radius: 5px;
+
+    float: left;
+
+    margin: 12px 0 0px 5px !important;
+
+    color: #3b368e !important;
+
+    width: 83%;
+
+}
+
+
+
+.porsline-delete-btn {
+
+    background: transparent;
+
+    border: 1px solid #fc7575;
+
+    color: #fc7575;
+
+    border-radius: 5px;
+
+    padding: 5px;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+
+
+.porsline-delete-btn:hover {
+
+    background-color: #fc7575;
+
+    color: #ffffff;
+
+}
+
+
+
+.show-survey-btn {
+
+    border-radius: 4px;
+
+    background-color: #3b368e;
+
+    color: #ffffff !important;
+
+    padding: 5px;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+    width: 100%;
+
+    margin-left: -8px;
+
+    font-size: 12px;
+
+}
+
+
+
+.porsline-survey-shortcode-sec {
+
+    margin: 8px 10px;
+    padding: 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 4px;
+
+}
+
+
+
+.porsline-survey-shortcode-sec input {
+
+    width: 165px;
+    border: #cacaca solid 1px;
+    margin-left: 3px;
+
+}
+
+
+
+.porsline-survey-styles-edit {
+
+    background-color: #0000005c;
+
+    height: 100%;
+
+    width: 100%;
+
+    position: fixed;
+
+    z-index: 10;
+
+    top: 0;
+
+    left: 0;
+
+    text-align: center;
+
+    display: none;
+
+}
+
+
+
+#porsline-survey-styles-modal {
+
+    background-color: #ffffff;
+
+    border: solid 1px;
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+    margin: 30px 5px 0px 20%;
+
+    display: none;
+
+    width: 32%;
+
+    margin-left: 7%;
+
+    display: inline-block;
+
+    position: relative;
+
+    height: 70%;
+
+    top: 105px;
+
+    border: 0;
+
+}
+
+
+
+#porsline-survey-styles-modal form {
+
+    overflow-y: auto;
+
+    height: 85%;
+
+}
+
+
+
+#porsline-survey-styles-modal form::-webkit-scrollbar {
+
+    width: 4px;
+
+}
+
+#porsline-survey-styles-modal form::-webkit-scrollbar-track {
+
+    box-shadow: inset 0 0 5px grey; 
+
+    border-radius: 10px;
+
+}
+
+#porsline-survey-styles-modal form::-webkit-scrollbar-thumb{
+
+    background: #3b368e; 
+
+    border-radius: 10px;
+
+}
+
+#porsline-survey-styles-modal form::-webkit-scrollbar-thumb:hover{
+
+    background: #3b368e;
+
+}
+
+#porsline-survey-styles-modal form {
+
+    scrollbar-width: thin;  /* Firefox */
+
+    scrollbar-color: #3b368e #ecf0f1;  /* Firefox */
+
+}
+
+
+
+.porsline-style-popup-close-btn {
+
+    cursor: pointer;
+
+    float: left;
+
+}
+
+
+
+.porsline-style-popup-close-btn i {
+
+    font-size: 20px;
+
+    color: #3b368e;
+
+    transform: rotate(45deg);
+
+}
+
+
+
+.porsline-design-attrs {
+
+
+
+}
+
+
+
+.porsline-design-attrs-col1 {
+
+    width: 30%;
+
+    padding: 20px 0px 20px 10px;
+
+    border-right: 1px solid;
+
+    display: inline-block;
+
+    display: none;
+
+}
+
+
+
+.porsline-design-attrs-col2 {
+
+    width: 33%;
+
+    padding: 20px 0px 20px 10px;
+
+    display: inline-block;
+
+    border-left: 1px solid;
+
+    display: none;
+
+}
+
+
+
+.porsline-design-attrs-col3 {
+
+    width: 30%;
+
+    padding: 20px 0px 20px 10px;
+
+    display: inline-block;
+
+    display: none;
+
+}
+
+
+
+.porsline-survey-list-page select {
+
+    border-radius: 4px;
+
+    width: 64px;
+
+    height: 32px;
+
+}
+
+
+
+.porsline-survey-list-page input {
+
+    border-radius: 4px;
+
+}
+
+
+
+.porsline-color-input {
+
+    border: none !important;
+
+    width: 50px;
+
+    height: 30px;
+
+}
+
+
+
+.design-update-btn {
+
+    background-color: #3b368e;
+
+    color: #ffffff;
+
+    padding: 8px 13px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    width: 85%;
+
+    margin-left: 1%;
+
+}
+
+
+
+#porsline-choose-from-link-sec {
+
+    display: none;
+
+}
+
+
+
+.porsline-type-select-btn {
+
+    width: 156px;
+
+    margin: 27px 5px 16px;
+
+    padding: 14px 0 14px;
+
+    border-radius: 4px;
+
+    border: solid 1px #bbbcc0;
+
+    text-align: center;
+
+    font-size: 14px;
+
+    cursor: pointer;
+
+    display: inline-block;
+
+    background-color: #ffffff;
+
+    transition: 0.3s;
+
+}
+
+
+
+.porsline-type-select-btn:hover {
+
+    background-color: #3b368e;
+
+    color: #ffffff;
+
+}
+
+
+
+.porsline-type-select-sec {
+
+    text-align: center;
+
+}
+
+
+
+.porsline-survey-list-page #porsline-both-type-settings input {
+
+    border-radius: 4px;
+
+    width: 64px;
+
+    height: 32px;
+
+    margin-left: 5px;
+
+}
+
+
+
+.porsline-survey-list-page #porsline-both-type-settings label {
+
+    font-size: 14px;
+
+    float: left;
+
+}
+
+
+
+#porsline-both-type-settings {
+
+    padding: 0 15px;
+
+}
+
+
+
+.porsline-popup-type-sec {
+
+    display: inline-block;
+
+    float: right;
+
+    background-color: #cbcbcba6;
+
+    border-radius: 4px;
+
+    padding: 5px 0;
+
+}
+
+
+
+.porsline-popup-type-item {
+
+    padding: 5px 20px;
+
+    border-radius: 4px;
+
+    display: inline;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+
+
+.porsline-popup-options-sec-hide {
+
+    display: none;
+
+}
+
+
+
+.porsline-inner-half {
+
+    width: 45%;
+
+    display: inline-block;
+
+    margin-left: 4%;
+
+}
+
+
+
+.porsline-folders-col {
+
+    width: 293px;
+
+    background-color: #ffffff;
+
+    float: left;
+
+    height: 448px;
+
+    margin-left: -10px;
+
+    padding: 0 10px;
+
+    overflow-y: auto;
+
+}
+
+
+
+.porsline-folders-col::-webkit-scrollbar {
+
+    width: 4px;
+
+}
+
+.porsline-folders-col::-webkit-scrollbar-track {
+
+    box-shadow: inset 0 0 5px grey; 
+
+    border-radius: 10px;
+
+}
+
+.porsline-folders-col::-webkit-scrollbar-thumb{
+
+    background: #3b368e; 
+
+    border-radius: 10px;
+
+}
+
+.porsline-folders-col::-webkit-scrollbar-thumb:hover{
+
+    background: #3b368e;
+
+}
+
+.porsline-folders-col {
+
+    scrollbar-width: thin;  /* Firefox */
+
+    scrollbar-color: #3b368e #ecf0f1;  /* Firefox */
+
+}
+
+
+
+.porsline-folders-title {
+
+    text-align: left;
+
+    margin: 23px 15px;
+
+    font-size: 18px;
+
+}
+
+
+
+#porsline-add-survey-popup h3 {
+
+    background-color: #ffffff;
+
+    width: 1083px;
+
+    margin-left: -10px;
+
+    padding: 24px 0;
+
+    margin-top: -10px;
+
+    margin-bottom: -18px;
+
+    border-bottom: 1px solid gainsboro;
+
+}
+
+
+
+.porsline-folder-surveys {
+
+    display: none;
+
+}
+
+
+
+.porsline-survey-title-box {
+
+    width: 65%;
+
+    height: 100%;
+
+    color: #ffffff;
+
+    border-radius: 8px 0 0 8px;
+
+    text-align: center;
+
+    float: left;
+
+}
+
+
+
+.porsline-survey-detials-box {
+
+    width: 34%;
+
+    float: right;
+
+    margin-right: 0px;
+
+    font-size: 14px;
+
+    line-height: 2;
+    margin-top: 7px;
+
+}
+
+
+
+.porsline-survey-detials-box span {
+
+    margin: 0 0 0 4px;
+
+}
+
+
+
+#porsline-folder-surveys-sec {
+
+    height: 440px;
+
+    overflow-y: auto;
+
+}
+
+
+
+#porsline-folder-surveys-sec::-webkit-scrollbar {
+
+    width: 4px;
+
+}
+
+#porsline-folder-surveys-sec::-webkit-scrollbar-track {
+
+    box-shadow: inset 0 0 5px grey; 
+
+    border-radius: 10px;
+
+}
+
+#porsline-folder-surveys-sec::-webkit-scrollbar-thumb{
+
+    background: #3b368e; 
+
+    border-radius: 10px;
+
+}
+
+#porsline-folder-surveys-sec::-webkit-scrollbar-thumb:hover{
+
+    background: #3b368e;
+
+}
+
+#porsline-folder-surveys-sec {
+
+    scrollbar-width: thin;  /* Firefox */
+
+    scrollbar-color: #3b368e #ecf0f1;  /* Firefox */
+
+}
+
+
+
+.porsline-added-surveys {
+
+    background-color: #eef0f5;
+
+    padding: 20px 0 20px 20px;
+
+    border-radius: 8px;
+
+    height: 476px;
+
+    overflow-y: auto;
+
+}
+
+
+
+.porsline-added-surveys::-webkit-scrollbar {
+
+    width: 4px;
+
+}
+
+.porsline-added-surveys::-webkit-scrollbar-track {
+
+    box-shadow: inset 0 0 5px grey; 
+
+    border-radius: 10px;
+
+}
+
+.porsline-added-surveys::-webkit-scrollbar-thumb{
+
+    background: #3b368e; 
+
+    border-radius: 10px;
+
+}
+
+.porsline-added-surveys::-webkit-scrollbar-thumb:hover{
+
+    background: #3b368e;
+
+}
+
+.porsline-added-surveys {
+
+    scrollbar-width: thin;  /* Firefox */
+
+    scrollbar-color: #3b368e #ecf0f1;  /* Firefox */
+
+}
+
+
+
+.survey-three-btn-sec {
+
+    margin-top: 55px;
+
+    margin-left: 10px;
+
+}
+
+
+
+.survey-options-sec {
+    box-shadow: 6px 6px 8px -2px rgb(0 0 0 / 16%);
+    width: 52px;
+    background-color: #ffffff;
+    z-index: 10;
+    padding: 4px 14px;
+    position: absolute;
+    margin: -92px 0 0 18px;
+    border-radius: 4px;
+    display: none;
+    text-align: left;
+    border: solid 1px #80808036;
+}
+
+
+
+.options-btn {
+
+    cursor: pointer;
+
+    margin-left: 74%;
+
+    margin-top: 10px;
+
+}
+
+
+
+.porsline-folder-surveys:first-child {
+
+    display: block;
+
+}
+
+
+
+.copy-btn {
+
+    margin: 11px 2px 0px -8px;
+    height: 30px;
+    color: #3b368e;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    display: inline;
+    background-color: #d5d5d5;
+    padding: 6px;
+
+}
+
+
+
+.copied-msg {
+    position: absolute;
+    background-color: #3b368e24;
+    color: gray;
+    margin-top: 41px !important;
+    margin-left: -43px !important;
+    padding: 5px;
+    border-radius: 4px;
+    opacity: 0;
+
+}
+
+
+
+.porsline-delete-modal-back {
+
+    background-color: #0000005c;
+
+    height: 100%;
+
+    width: 100%;
+
+    position: fixed;
+
+    z-index: 10;
+
+    top: 0;
+
+    right: 0;
+
+    text-align: center;
+
+    display: none;
+
+}
+
+
+
+.porsline-delete-modal {
+
+    box-shadow: 0px 4px 8px -2px rgb(0 0 0 / 15%);
+
+    margin: 0px 0 0px -2%;
+
+    width: 328px;
+
+    padding: 8px;
+
+    border-radius: 8px;
+
+    background-color: #ffffff;
+
+    margin-left: 40%;
+
+    margin-top: 8%;
+
+}
+
+
+
+.delete-modal-header {
+
+    width: 100%;
+
+    margin: 0 0 32px;
+
+    padding: 4px;
+
+    box-shadow: inset 0 -2px 0 0 #f0f2f5;
+
+}
+
+
+
+.delete-modal-header i {
+
+    display: inline-block;
+
+    position: absolute;
+
+    margin-left: -122px;
+
+    font-size: 20px;
+
+    transform: rotate(45deg);
+
+    margin-top: 10px;
+
+    cursor: pointer;
+
+}
+
+
+
+.delete-modal-header h4 { 
+
+    display: inline-block;
+
+    margin: 8px 0;
+
+}
+
+
+
+.delete-modal-btns {
+
+    width: 100%;
+
+    margin: 32px 0 0 0 ;
+
+    padding: 14px 0 2px 0;
+
+    box-shadow: inset 0 2px 0 0 #f0f2f5;
+
+}
+
+
+
+.delete-modal-btns span {
+
+    margin-left: 116px;
+
+    width: 64px;
+
+    height: 32px;
+
+    padding: 4px 12px 5px;
+
+    border-radius: 4px;
+
+    background-color: rgba(59, 54, 142, 0.2);
+
+    color: #3b368e;
+
+    border: 0;
+
+    cursor: pointer;
+
+}
+
+
+
+.delete-modal-btns button{
+
+    width: 104px;
+
+    height: 32px;
+
+    margin: 0 0 0 16px;
+
+    padding: 4px 12px 5px;
+
+    border-radius: 4px;
+
+    background-color: #e3324f;
+
+    border: 0;
+
+    color: #ffffff;
+
+    cursor: pointer;
+
+}
+
+label {
+    cursor: unset !important;
+}
+
+.porsline-or-span {
+    margin-left: 8px;
+    font-size: 16px;
+}
+
+.active-span {
+    font-size: 10px;
+    margin-left: -2px;
+}
+
+.auth-err-span {
+    margin-left: 41%;
+}
+
+.folder-name-float {
+    float: left;
+}
+
+.display-options-float {
+    float: right;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .porsline-survey-list-page {
+
+        width: 90%;
+
+        margin-left: 0%;
+
+    }
+
+
+
+    .porsline-added-surveys {
+
+        padding: 20px 0px 20px 0;
+
+    }
+
+
+
+    div.porsline-folder-surveys-item {
+
+        width: 93%;
+
+    }
+
+
+
+    .porsline-survey-title-box {
+
+        width: 60%;
+
+    }
+
+
+
+    .porsline-survey-shortcode-sec input {
+
+        width: 82%;
+
+    }
+
+
+
+    .copy-btn {
+
+        margin: 9px 2px 0px -6px;
+
+        height: 42px;
+
+    }
+
+}
